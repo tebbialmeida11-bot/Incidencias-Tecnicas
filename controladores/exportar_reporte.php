@@ -1,6 +1,7 @@
 <?php
+// Archivo: Generacion de reporte de incidencia en PDF usando TCPDF
 require_once '../config/bd.php';
-require_once '../librerias/TCPDF-main/tcpdf.php'; // Asegúrate de que esta ruta coincida con tu estructura
+require_once '../librerias/TCPDF-main/tcpdf.php';
 if (!isset($_GET['id']) || empty($_GET['id'])) {
     die("ID de incidencia no proporcionado.");
 }
@@ -91,4 +92,5 @@ EOD;
 } catch (PDOException $e) {
     die("Error en la base de datos: " . $e->getMessage());
 }
+
 ?>
