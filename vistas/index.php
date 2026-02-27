@@ -58,11 +58,6 @@ try {
             <?php endif; ?>
         </form>
     </div>
-    <?php if (isset($_GET['mensaje']) && $_GET['mensaje'] == 'exito'): ?>
-        <div style="background-color: #d4edda; color: #155724; padding: 10px; border-radius: 4px; margin-bottom: 15px;">
-            Incidencia registrada correctamente.
-        </div>
-    <?php endif; ?>
     <table>
         <thead>
             <tr>
@@ -103,4 +98,5 @@ try {
             <?php endif; ?>
         </tbody>
     </table>
+
 <?php include 'pie.php'; ?>
