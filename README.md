@@ -1,6 +1,6 @@
 # Incidencias-Tecnicas
 Actividad 8 - Administración de proyectos de software
-#  TechSupport Desk - Sistema de Gestión de Incidencias Técnicas
+#  Incidencias Tecnicas - Sistema de Gestión de Incidencias Técnicas
 
 Este es un sistema web desarrollado bajo el patrón de arquitectura MVC (simplificado) para gestionar, asignar y dar seguimiento a incidencias técnicas dentro de una organización. 
 
