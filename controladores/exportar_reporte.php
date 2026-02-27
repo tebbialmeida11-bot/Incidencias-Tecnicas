@@ -81,12 +81,8 @@ try {
     </table>
 EOD;
 
-    // 6. Imprimir el HTML dentro del PDF
+    
     $pdf->writeHTML($html, true, false, true, false, '');
-
-    // 7. Generar el archivo y mostrarlo en el navegador
-    // La 'I' significa Inline (Mostrar en el navegador). 
-    // Si la cambias por 'D', forzará la descarga del archivo.
     $pdf->Output('Reporte_Incidencia_' . $incidencia['id'] . '.pdf', 'I');
 
 } catch (PDOException $e) {
@@ -94,3 +90,4 @@ EOD;
 }
 
 ?>
+
